@@ -1,1 +1,19 @@
-body { }
+nav-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+ }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+ }
+
+nav-items > li {
+    padding: 10px;
+}
+
+logo {
+    width: 60px;
+}
